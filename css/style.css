@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body {
+  width: 100%;
+  height: 1000px;
+  background: #000;
+  color: #fff;
+}
+
+div#puzzle-main, div#puzzle-enemy {
+  position: relative;
+  bottom: 0px;
+  margin: 10px auto;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  padding: 2px;
+}
+
+#btn-start {
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 30px;
+  color: #FFF;
+  line-height: 30px;
+  text-shadow: none;
+  background: #CCC;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+span.drop {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 0 2px #000;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0px 0px 8px -1px;
+  opacity: 0;
+}
+
+#delete_drop,#status {
+  clear: both;
+  margin: 0 auto;
+  width: 600px;
+  line-height: 20px;
+}
+
+#status li {
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+
+#delete_drop li {
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+
+#delete_drop li p {
+  font-size: 20px;
+}
+
+.drop-heal { color: #F9F; }
+.drop-flame { color: #F36; }
+.drop-aqua { color: #3CF; }
+.drop-leaf { color: #3C3; }
+.drop-shine { color: #FFEB00; }
+.drop-dark { color: #96C; }
+
+.checked.drop-heal { background: #F9F; }
+.checked.drop-flame { background: #F36; }
+.checked.drop-aqua { background: #3CF; }
+.checked.drop-leaf { background: #3C3; }
+.checked.drop-shine { background: #FFEB00; }
+.checked.drop-dark { background: #96C; }
+
+
+
+#hp {
+  width: 640px;
+  height: 20px;
+  border: 1px dotted green;
+  margin: 5px auto;
+  opacity: 0;
+}
+#hp span {
+  display: block;
+  width: 100%;
+  height: 20px;
+  background: yellow;
+}
+
+.result {
+  position: absolute;
+  display: block;
+  width: 300px;
+  height: 235px;
+  color: #FFF;
+  text-shadow: none;
+  border: 1px solid green;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.result h3 {
+  line-height: 37px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.result p {
+  font-size: 22px;
+  text-align: left;
+  margin: 0 0 0 15px;
+  line-height: 24px;
+}
+
+

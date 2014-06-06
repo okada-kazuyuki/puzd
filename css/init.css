@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* -------------------------------------------
+ * initialize
+ */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+article, aside, dialog, figure, footer, header, hgroup, nav, section { display: block; }
+ul li { list-style: none; }
+input, select { vertical-align: middle; }
+.hide { display: none; }
+.clear { clear: both; }
+.clearfix { min-height: 1px; }
+img { border: none; vertical-align: top; }
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  zoom:1;
+}
+
+html,body {
+  color: #393636;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  line-height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  width: 100%;
+}
