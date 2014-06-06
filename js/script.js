@@ -366,7 +366,7 @@ jQuery(function($){
 
 
   function hage(){
-    alert("禿げます。禿げます。");
+    alert("禿げます。");
   }
 
 });
