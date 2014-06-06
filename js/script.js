@@ -364,6 +364,11 @@ jQuery(function($){
     setting(true);
   });
 
+
+  function hage(){
+    alert("禿げます。禿げます。");
+  }
+
 });
 
 
